@@ -1,0 +1,36 @@
+/* mobile first approach - > always start wiht mobile then tablet 
+then laptop and atlast pc'c */
+
+body {
+    background-color: green;
+}
+
+/* 
+   small -> 0 - 767px
+   tablet -> 768px
+   lapyop -> 1020px
+   PC-> 1400px 
+*/
+@media (max-width:767px){
+    body{
+        background-color: hotpink;
+    }
+}
+
+@media (min-width: 768px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media (min-width: 1020px){
+    body{
+        background-color: orange;
+    }
+}
+
+@media (min-width: 1400px){
+    body{
+        background-color: purple;
+    }
+}

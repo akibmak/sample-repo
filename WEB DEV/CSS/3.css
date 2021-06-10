@@ -1,0 +1,22 @@
+button {
+    margin: 150px;
+    background-color: aqua;
+    color: crimson;
+    border-radius: 6px;
+    border: 2px black;
+    padding: 10px;
+    
+
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+button:focus{
+    background-color: chartreuse;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}

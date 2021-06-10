@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    padding: 200px;
+}
+
+.parent {
+    background-color: white;
+    width: 100%;
+    height: 500px;
+    /* to make a flex container */
+    display: flex;
+    gap: 5px;
+    /* the child will understand that thres not enough space and 
+    goes to next line and otherwise the content will just get squeezed in row. */
+    flex-wrap: wrap;
+    
+    /* justify-content allows you to select all items and group them and  then align them */
+    justify-content: center;
+
+    /* align-items will allow you to choose items indivisually and align them */
+    align-items: center;
+
+    /* flex direction is set as row(left to right) by default. */
+    flex-direction: column;
+}
+
+.child{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.child2{
+    background-color: greenyellow;
+    width: 250px;
+    height: 250px;
+    
+}
